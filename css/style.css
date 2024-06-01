@@ -1,0 +1,52 @@
+/* header styles */
+.header-wraper {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  padding: 30px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.ul-element {
+  display: flex;
+}
+/* .header {
+  height: 76px;
+} */
+body {
+  height: 2000px;
+}
+.fa-square-facebook {
+  color: blue;
+  font-size: 30px;
+  margin-right: 35px;
+}
+.youtube-icon {
+  color: red;
+  font-size: 30px;
+}
+.icon-fb {
+  width: 56px;
+  height: 56px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-title {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  color: red;
+  font-size: 30px;
+}
+.image-wraper {
+  position: relative;
+  display: inline-block;
+}
